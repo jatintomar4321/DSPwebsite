@@ -46,7 +46,7 @@ const Information = () => {
     <section className="min-h-[80vh] flex flex-col items-center justify-center bg-gradient-to-br from-[#EEF4E9] to-[#D2E6DB] py-16">
       <div className="text-center mb-3 text-[16px] text-black xs:text-[16px] sm:text-[18px] font-md">Get in Touch With Us</div>
       <div className="text-center mb-10 text-[28px] xs:text-[26px] sm:text-[30px] md:text-[36px] font-semibold text-[#338A4B]">Informations</div>
-      <div className="flex flex-col lg:flex-row gap-4 lg:gap-4 w-full sm:w-[80vw] max-w-[800px] mx-auto px-4">
+      <div className="flex flex-col lg:flex-row gap-4 lg:gap-4 w-full sm:w-[80vw] justify-center items-center max-w-[800px] mx-auto px-4">
         <div className="flex flex-row gap-4 justify-center">
           <div className="bg-white rounded-xl shadow-sm border border-[#b7e0c7] flex flex-col items-center justify-center aspect-square w-[140px] sm:w-[140px] md:w-[140px] lg:w-[160px] transition-shadow hover:shadow-lg">
             <div className="mb-1 lg:mb-2">{cards[0].icon}</div>
