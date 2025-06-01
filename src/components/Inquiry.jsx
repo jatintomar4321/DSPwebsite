@@ -33,9 +33,9 @@ export default function Inquiry() {
   };
 
   return (
-    <div className="min-h-screen bg-[#fafafa] flex items-center justify-center relative overflow-hidden px-2 sm:px-4 md:px-8">
+    <div className="min-h-[80vh] bg-[#fafafa] flex items-center justify-center relative overflow-hidden px-2 sm:px-4 md:px-8">
       <div className="hidden md:block absolute right-0 top-0 h-full z-0 pointer-events-none select-none">
-        <img src="/leaf.png" alt="leaves" className="h-full opacity-50" />
+        <img src="/right.png" alt="leaves" className=" pt-30 opacity-50 object-contain " />
       </div>
       <form onSubmit={handleSubmit} className="w-full bg-[#fafafa] max-w-[700px] sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-2xl px-2 sm:px-4 md:px-8 py-8 sm:py-10 z-10 relative mx-auto flex flex-col items-center  rounded-2xl ">
         <div className="text-center mb-4">
@@ -51,7 +51,7 @@ export default function Inquiry() {
           value={form.studentName}
           onChange={handleChange}
           placeholder="Student’s Full Name"
-          className="w-full h-12 my-2 px-4 sm:px-5 rounded-xl bg-[gray-100] text-base sm:text-lg text-gray-900 font-normal border-none outline-none shadow-sm placeholder-gray-400"
+          className="w-full h-10 my-2 px-4 sm:px-5 rounded-lg bg-[gray-100] text-base sm:text-sm text-gray-900 font-normal border-none outline-none shadow-sm placeholder-gray-400"
           required
         />
         <input
@@ -60,14 +60,14 @@ export default function Inquiry() {
           value={form.parentName}
           onChange={handleChange}
           placeholder="Parent’s / Guardian Name"
-          className="w-full h-12 my-2 px-4 sm:px-5 rounded-xl bg-gray-100 text-base sm:text-lg text-gray-900 font-normal border-none outline-none shadow-sm placeholder-gray-400"
+          className="w-full h-10 my-2 px-4 sm:px-5 rounded-lg bg-gray-100 text-base sm:text-sm text-gray-900 font-normal border-none outline-none shadow-sm placeholder-gray-400"
           required
         />
         <select
           name="standard"
           value={form.standard}
           onChange={handleChange}
-          className="w-full h-12 my-2 px-4 sm:px-5 rounded-xl bg-gray-100 text-base sm:text-lg text-gray-900 font-normal border-none outline-none shadow-sm appearance-none"
+          className="w-full h-10 my-2 px-4 sm:px-5 rounded-lg bg-gray-100 text-base sm:text-sm text-gray-900 font-normal border-none outline-none shadow-sm appearance-none"
           required
         >
           <option value="" disabled>Standard</option>
@@ -77,7 +77,7 @@ export default function Inquiry() {
           name="state"
           value={form.state}
           onChange={handleChange}
-          className="w-full h-12 my-2 px-4 sm:px-5 rounded-xl bg-gray-100 text-base sm:text-lg text-gray-900 font-normal border-none outline-none shadow-sm appearance-none"
+          className="w-full h-10 my-2 px-4 sm:px-5 rounded-lg bg-gray-100 text-base sm:text-sm text-gray-900 font-normal border-none outline-none shadow-sm appearance-none"
           required
         >
           <option value="" disabled>State</option>
@@ -87,7 +87,7 @@ export default function Inquiry() {
           name="city"
           value={form.city}
           onChange={handleChange}
-          className="w-full h-12 my-2 px-4 sm:px-5 rounded-xl bg-gray-100 text-base sm:text-lg text-gray-900 font-normal border-none outline-none shadow-sm appearance-none"
+          className="w-full h-10 my-2 px-4 sm:px-5 rounded-lg bg-gray-100 text-base sm:text-sm text-gray-900 font-normal border-none outline-none shadow-sm appearance-none"
           required
         >
           <option value="" disabled>City</option>
@@ -99,7 +99,7 @@ export default function Inquiry() {
           value={form.email}
           onChange={handleChange}
           placeholder="Email"
-          className="w-full h-12 my-2 px-4 sm:px-5 rounded-xl bg-gray-100 text-base sm:text-lg text-gray-900 font-normal border-none outline-none shadow-sm placeholder-gray-400"
+          className="w-full h-10 my-2 px-4 sm:px-5 rounded-lg bg-gray-100 text-base sm:text-sm text-gray-900 font-normal border-none outline-none shadow-sm placeholder-gray-400"
           required
         />
         <input
@@ -108,7 +108,7 @@ export default function Inquiry() {
           value={form.mobile}
           onChange={handleChange}
           placeholder="Mobile Number"
-          className="w-full h-12 my-2 px-4 sm:px-5 rounded-xl bg-gray-100 text-base sm:text-lg text-gray-900 font-normal border-none outline-none shadow-sm placeholder-gray-400"
+          className="w-full h-10 my-2 px-4 sm:px-5 rounded-lg bg-gray-100 text-base sm:text-sm text-gray-900 font-normal border-none outline-none shadow-sm placeholder-gray-400"
           pattern="[0-9]{10}"
           required
         />
