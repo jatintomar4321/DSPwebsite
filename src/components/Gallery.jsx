@@ -67,9 +67,9 @@ const Gallery = () => {
               </div>
               <div className="p-6 flex items-center justify-between">
                 <h3 className="text-xl font-medium text-black">{card.title}</h3>
-                <div className="w-10 h-10 bg-gradient-to-r from-[#699940] to-[#00713C] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <button className="w-10 h-10 bg-gradient-to-r from-[#699940] to-[#00713C] !rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                   <img src='/galleryArrow.svg' alt="Arrow Icon" className="w-5 h-5" />
-                </div>
+                </button>
               </div>
             </div>
           ))}
