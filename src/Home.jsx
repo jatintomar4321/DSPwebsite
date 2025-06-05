@@ -1,4 +1,5 @@
 import Applynow from './components/Applynow'
+import Gallery from './components/Gallery'
 import Hero from './components/Hero'
 import Information from './components/Information'
 import Inquiry from './components/Inquiry'
@@ -80,6 +81,7 @@ const Home = () => {
           description: "Our campus is equipped with state-of-the-art facilities including modern classrooms, labs, library, and digital learning tools."
         }
       ]}/>
+      <Gallery />
       <Quote/>
       <Applynow />
       <Information/>

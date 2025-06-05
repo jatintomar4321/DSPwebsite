@@ -114,7 +114,7 @@ export default function Inquiry() {
         />
         <button
           type="submit"
-          className="w-full mt-6 bg-gradient-to-r from-green-500 to-green-800 text-white font-semibold text-xl sm:text-2xl rounded-xl py-3 sm:py-4 cursor-pointer shadow-md hover:from-green-600 hover:to-green-900 transition-all duration-200"
+          className="w-full text-base py-[0.6em] px-[1.2em] bg-gradient-to-r from-green-500 to-green-800 text-white font-semibold rounded-xl cursor-pointer shadow-md hover:from-green-600 hover:to-green-900 transition-all duration-200"
         >
           Send Enquiry
         </button>

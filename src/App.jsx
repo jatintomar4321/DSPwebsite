@@ -10,7 +10,7 @@ const App = () => {
       <div className="min-h-screen w-screen overflow-x-hidden">
         <Navbar />
         <Routes>
-          <Route path="/" element= <Home/> />
+          <Route path="/" element= {<Home/>} />
           <Route path="/about" element={<div>About Page</div>} />
           <Route path="/gallery" element={<div>Gallery Page</div>} />
           <Route path="/facilities" element={<div>Facilities Page</div>} />
